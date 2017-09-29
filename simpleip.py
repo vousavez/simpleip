@@ -1,3 +1,6 @@
-from requests import get
+import requests
 
-print('Your IP address is: {}'.format(get('https://api.ipify.org').text))
+ans = input('Check IP ? ')
+if ans == True:
+  response = requests.get('https://api.ipify.org')
+  print(response.text)
