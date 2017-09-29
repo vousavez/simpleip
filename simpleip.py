@@ -1,6 +1,6 @@
-import requests
+from requests import get
 
 url = 'https://api.ipify.org'
-ip = requests.get(url)
+ip = get(url)
 
 print('Your IP address is: {}'.format(ip.text))
