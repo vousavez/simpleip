@@ -1,2 +1,2 @@
 # simpleip
-simple ip checker
+simple ip checker using requests python's library
