@@ -1,2 +1,4 @@
 from requests import get
-print(get('https://api.ipify.org').text)
+ip = get('https://api.ipify.org')
+
+print(ip.text)
